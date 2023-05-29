@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tours</title>
+  <link rel="stylesheet" href="static\css\style_page3.css">
+  <link rel="stylesheet" href="static\icons\style_icons.css">
+  <script src="static\js\container_page3.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>Tours</h1>
+    <nav>
+      <a href="\">
+        <div class="main_page">
+          <img src="static\icons\main.png" alt="Main Page">
+        </div>
+      </a>
+      <a href="/account">
+        <div class="profile">
+          <img src="\static\icons\profile_image.png" alt="Profile Image">
+          <span>My Profile</span>
+        </div>
+      </a>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <div class="container" id="excursions-container"></div>
+    <form>
+      <label for="search">Search:</label>
+      <input type="search" id="search" name="search">
+
+      <fieldset>
+        <legend>Included:</legend>
+
+        <label for="Local guide"><input type="checkbox" id="Local guide" name="Local guide">Local guide</label>
+        <label for="Professional Driver"><input type="checkbox" id="Professional Driver" name="Professional Driver">Professional Driver</label>
+        <label for="Professional guide"><input type="checkbox" id="Professional guide" name="Professional guide">Professional guide</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sort:</legend>
+
+        <label for="sort1"><input type="radio" id="sort1" name="sort" value="1"> by date</label>
+      </fieldset>
+
+      <button type="submit">Apply</button>
+    </form>
+  </div>
+</body>
+
+</html>

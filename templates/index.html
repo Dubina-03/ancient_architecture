@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ancient Greek Architecture</title>
+  <link rel="stylesheet" href="static\icons\style_icons.css">
+  <link rel="stylesheet" href="static\css\weather.css">
+  <link rel="stylesheet" href="static\css\style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.development.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.development.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="/">
+        <div class="main_page">
+          <img src="static\icons\main.png" alt="Main Page">
+        </div>
+      </a>
+
+      <a href="/account">
+        <div class="profile">
+          <img src="static\icons\profile_image.png" alt="Profile Image">
+          <span>My Profile</span>
+        </div>
+      </a>
+    </nav>
+  </header>
+  <div id="root"></div>
+  <main>
+    <h1><br>Ancient Greek architecture</h1>
+    <p class="p-description">For most of us, architecture is easy to take for granted. It's everywhere in our daily lives—sometimes elegant, other times shabby, but generally ubiquitous. How often do we stop to examine and contemplate its form and style? Stopping for that contemplation offers not only the opportunity to understand one’s daily surroundings but also to appreciate the connection that exists between architectural forms in our own time and those from the past. Architectural tradition and design have the ability to link disparate cultures together over time and space—and this is certainly true of the legacy of architectural forms created by the ancient Greeks.</p>
+    <img src="static\icons\main_greece.jpg" alt="main" class="greece_image">
+  </main>
+  
+  <nav class="nav-container">
+    <ul>
+      <li><a href="/page1">The History</a></li>
+      <li><a href="/page2">Famous Greek Buildings</a></li>
+      <li><a href="/page3">Tours</a></li>
+    </ul>
+  </nav>
+
+  <!-- Include the compiled version of your weather.js file -->
+  <script type="text/babel" src="static\js\weather.js"></script>
+
+  <!-- Render the weather widget -->
+  <script type="text/babel">
+    ReactDOM.render(<App />, document.getElementById("root"));
+  </script>
+  <footer>
+    <table>
+      <caption>Contacts</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Telephone</th>
+          <th>Email</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sandra Mall</td>
+          <td>+43000000000</td>
+          <td>sandra@email.com</td>
+          <td>Austria</td>
+        </tr>
+        <tr>
+          <td>Yulia Kvitkova</td>
+          <td>+38000000000</td>
+          <td>yulia@email.com</td>
+          <td>Ukraine</td>
+        </tr>
+        <tr>
+          <td>Max Stark</td>
+          <td>+10000000000</td>
+          <td>max@email.com</td>
+          <td>USA</td>
+        </tr>
+      </tbody>
+    </table>
+  </footer>
+
+
+</body>
+
+</html>

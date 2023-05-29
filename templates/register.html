@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="static/css/style_page4.css">
+  <script src="static/js/script_page4.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Registration</h1>
+    <form>
+      <label>
+        First Name:
+        <input type="text" name="name" id="name">
+      </label>
+      <label>
+        Last Name:
+        <input type="text" name="surname" id="surname">
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" id="email">
+      </label>
+      <label>
+        Password:
+        <input type="password" name="password" id="password">
+      </label>
+      <label>
+        Repeat Password:
+        <input type="password" name="confirm_password" id="confirm_password">
+      </label>
+      <input type="button" value="Submit" onclick="submitForm()">
+    </form>
+    <div id="message"></div>
+    <p>Already have an account? <a href="\log_in">Login</a></p>
+  </div>
+</body>
+
+</html>
