@@ -90,7 +90,7 @@ class App extends React.Component {
     buildUrlApi = () => {
       const location = encodeURIComponent(this.state.location);
       const urlPrefix = "https://api.openweathermap.org/data/2.5/forecast?q=";
-      const urlSuffix = "&APPID=07686a23d707563c123e851d79055ec9&units=metric";
+      const urlSuffix = "&APPID=****&units=metric";
   
       return [urlPrefix, location, urlSuffix].join("");
     };
