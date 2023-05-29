@@ -1,0 +1,48 @@
+.sidebar {
+  float: left;
+  width: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.content {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+
+#article-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#article-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#article-content {
+  display: none;
+}
+
+#article-image {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#article-text {
+  margin-top: 10px;
+}
+
+#article-text p {
+  max-width: 50%;
+  margin-bottom: 10px;
+}
+
+#article-text h2 {
+  max-width: 50%;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}

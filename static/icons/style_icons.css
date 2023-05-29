@@ -1,0 +1,43 @@
+nav .profile {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  nav .profile:hover {
+    background-color: #F5F5F5;
+  }
+  
+  nav .profile img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  nav .profile span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  nav .main_page {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  nav .main_page img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+  }

@@ -1,0 +1,123 @@
+/* styles for form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  float: left;
+  width: 15%;
+}
+
+label,
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+  margin-right: 5px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #0077b6;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* styles for container */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 20px;
+  flex-direction: column;
+  float: right;
+  width: 80%;
+}
+
+.flexbox-item {
+  width: 80%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row; /* changed to row */
+  justify-content: space-between; /* added */
+  align-items: flex-start; /* changed to flex-start */
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.flexbox-item img {
+  width: 30%;
+  max-width: 50%;
+  height: auto;
+  object-fit: cover; /* added to maintain aspect ratio */
+  align-self: flex-start; /* added to align image to the top */
+  margin-right: 10px; /* added to create some space between image and content */
+}
+
+.flexbox-item-content {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Update to display content in a column */
+  justify-content: space-between; /* added to push content to the top and bottom */
+}
+
+.flexbox-item h3,
+.flexbox-item p {
+  text-align: center;
+  margin: 10px;
+}
+
+.flexbox-item a {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #0077b6;
+}
+
+.flexbox-item h3,
+.flexbox-item p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.like-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fca311;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.like-button:hover {
+  background-color: #e85d04;
+}
+
+.fa-heart-o {
+  margin-right: 5px;
+}
