@@ -1,0 +1,27 @@
+[
+  {
+    "id": "52f38ce2-70c0-415f-b522-3f8ce8592cdc",
+    "username": "user@example.com",
+    "password": "12345678",
+    "liked_excursions": [
+      0,
+      2,
+      1,
+      4
+    ]
+  },
+  {
+    "id": "ff31a763-8563-435a-b047-5e305c898066",
+    "username": "user2@example.com",
+    "password": "87654321",
+    "liked_excursions": []
+  },
+  {
+    "id": "8dfb16ce-af42-4834-814b-1216892bb15f",
+    "username": "user3@example.com",
+    "password": "12341234",
+    "liked_excursions": [
+      0
+    ]
+  }
+]
